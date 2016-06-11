@@ -1,5 +1,8 @@
+if (!require("plyr")) {
+    install.packages("plyr")
+}
+
 require (plyr)
-require (knitr)
 
 # check if directory already exists else create the directory and
 # download the referred file with specific naming convention
